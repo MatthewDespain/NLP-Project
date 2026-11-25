@@ -1,0 +1,220 @@
+sample_id,fact_id,similarity_stratum,model,prompt_version,reference_label,predicted_label,match,explanation,raw_response,error,quality_flags,done_reason,elapsed_seconds
+A001,test23_F009,high,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that the propector is going to have a ball (Window 1), but the specific location (Traverse Creek) and the scale of the gold rush (rivaling 1997) are unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the propector is going to have a ball (Window 1), but the specific location (Traverse Creek) and the scale of the gold rush (rivaling 1997) are unverified.""
+}",,,stop,18.19
+A002,test20_F003,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"At least one substantive component of the specific claim is established, but at least one other substantive component remains unverified by the combined windows. The claim that Phil Robertson never saw the mistreatment of any black person is partially supported by Window 1, but the claim that he never saw the mistreatment of African Americans while growing up in Louisiana before the civil rights era remains unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""At least one substantive component of the specific claim is established, but at least one other substantive component remains unverified by the combined windows. The claim that Phil Robertson never saw the mistreatment of any black person is partially supported by Window 1, but the claim that he never saw the mistreatment of African Americans while growing up in Louisiana before the civil rights era remains unverified.""
+}",,,stop,14.66
+A003,test28_F005,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that the comments were 'really hard to stomach' and that they are 'reprehensible', but the specific claim that they are trying to appeal to people's worst instincts is not fully verified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the comments were 'really hard to stomach' and that they are 'reprehensible', but the specific claim that they are trying to appeal to people's worst instincts is not fully verified by the combined windows.""
+}",,,stop,9.99
+A004,test77_F001,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Adrianne Haslet-Davis will run the Boston Marathon this year, but the specific claim that she lost most of her left leg in the Boston Marathon bombing is not verified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Adrianne Haslet-Davis will run the Boston Marathon this year, but the specific claim that she lost most of her left leg in the Boston Marathon bombing is not verified by the combined windows.""
+}",,,stop,11.36
+A005,test16_F011,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes Katie Wyble's passion for sign language and her interaction with a customer using sign language, but the specific claim about making more people aware of what they can do to serve others in their communities is not directly supported by the provided windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes Katie Wyble's passion for sign language and her interaction with a customer using sign language, but the specific claim about making more people aware of what they can do to serve others in their communities is not directly supported by the provided windows.""
+}",,,stop,12.06
+A006,test49_F004,high,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that the Camp Fire burned more than 153,000 acres and killed at least 85 people, but the number of destroyed buildings (19,000) and the location (Butte County) are not explicitly verified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the Camp Fire burned more than 153,000 acres and killed at least 85 people, but the number of destroyed buildings (19,000) and the location (Butte County) are not explicitly verified by the combined windows.""
+}",,,stop,13.55
+A007,test47_F011,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that the tomb is not the burial site of an individual Jew known as Jesus of Nazareth, but the specific claim that it is impossible to say the tomb is the burial site is supported by the fact that the earliest architectural evidence dates to the Crusader period, making it no older than 1,000 years.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the tomb is not the burial site of an individual Jew known as Jesus of Nazareth, but the specific claim that it is impossible to say the tomb is the burial site is supported by the fact that the earliest architectural evidence dates to the Crusader period, making it no older than 1,000 years.""
+}",,,stop,15.66
+A008,test72_F004,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The atomic fact is partially supported by the evidence, as the specific claim about handing over the baby to Dr. Aamir is established in Window 1, but the claim about the baby being given to deserving couples on air is not supported, and the claim about the baby being kept alive and getting a good home is contradicted by Window 2 and Window 3.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The atomic fact is partially supported by the evidence, as the specific claim about handing over the baby to Dr. Aamir is established in Window 1, but the claim about the baby being given to deserving couples on air is not supported, and the claim about the baby being kept alive and getting a good home is contradicted by Window 2 and Window 3.""}",,,stop,13.04
+A009,test66_F002,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that the attack is an 'act of senseless and diabolical violence', but the specific number of victims (16 people, including four Catholic nuns) is not verified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the attack is an 'act of senseless and diabolical violence', but the specific number of victims (16 people, including four Catholic nuns) is not verified by the combined windows.""
+}",,,stop,13.26
+A010,test28_F008,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"At least one substantive component of the claim (the reality of health care being nothing like the kind of fear mongering that was done) is established, but the claim's central component (the Republicans' term 'ObamaCare' being a positive term) remains unverified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""At least one substantive component of the claim (the reality of health care being nothing like the kind of fear mongering that was done) is established, but the claim's central component (the Republicans' term 'ObamaCare' being a positive term) remains unverified by the combined windows.""
+}",,,stop,13.94
+A011,test0_F009,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that incumbent Democratic governors in Montana, New Hampshire, and Washington are not seeking reelection, but the specific claim that 'Democrat incumbents aren't seeking reelection' is partially supported because the third window does not explicitly state this, only that only three of tonight's contests are considered competitive in states where incumbent Democratic governors aren't running again.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that incumbent Democratic governors in Montana, New Hampshire, and Washington are not seeking reelection, but the specific claim that 'Democrat incumbents aren't seeking reelection' is partially supported because the third window does not explicitly state this, only that only three of tonight's contests are considered competitive in states where incumbent Democratic governors aren't running again.""}",,,stop,15.76
+A012,test56_F007,high,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that AMC would make sure all guests fully enjoy the movie-going experience, but the specific number of screens and the method of implementation remain unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that AMC would make sure all guests fully enjoy the movie-going experience, but the specific number of screens and the method of implementation remain unverified.""
+}",,,stop,12.77
+A013,test97_F017,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The combined windows establish that Cassie Young makes the statement 'Life is waiting for you. It's too short to be spent worrying about a belly roll.' (Window 1 and 5), but the specific context of her personal experience with body-shaming is not verified (Window 4).","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The combined windows establish that Cassie Young makes the statement 'Life is waiting for you. It's too short to be spent worrying about a belly roll.' (Window 1 and 5), but the specific context of her personal experience with body-shaming is not verified (Window 4).""
+}",,,stop,11.93
+A014,test60_F001,high,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that a woman was locked in the trunk of a moving car and was saved by a quick-thinking 911 dispatcher, but the specific details of the boyfriend's involvement and the exact circumstances of the rescue are not verified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that a woman was locked in the trunk of a moving car and was saved by a quick-thinking 911 dispatcher, but the specific details of the boyfriend's involvement and the exact circumstances of the rescue are not verified.""
+}",,,stop,14.89
+A015,test39_F001,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Lois Lerner has been placed on administrative leave, but the specific reason for her placement and whether she is still being paid while on leave remain unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Lois Lerner has been placed on administrative leave, but the specific reason for her placement and whether she is still being paid while on leave remain unverified.""
+}",,,stop,13.85
+A016,test36_F004,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes the specific dollar amount of $2,500, but not the emphasis on larger dollar fundraising events, which is only mentioned in one window.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes the specific dollar amount of $2,500, but not the emphasis on larger dollar fundraising events, which is only mentioned in one window.""}",,,stop,12.66
+A018,test77_F006,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Haslet-Davis will cry during the race (Window 2), but the specific claim that she will cry the whole time is not fully supported, as the duration of her crying is not specified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Haslet-Davis will cry during the race (Window 2), but the specific claim that she will cry the whole time is not fully supported, as the duration of her crying is not specified.""
+}",,,stop,12.5
+A019,test68_F005,high,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that the spoken phrase is the same across different languages, but the atomic fact of the phrase being 'Look, look over there—a group of elephants is coming.' is not fully supported, as the phrase is not explicitly stated in any of the windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the spoken phrase is the same across different languages, but the atomic fact of the phrase being 'Look, look over there—a group of elephants is coming.' is not fully supported, as the phrase is not explicitly stated in any of the windows.""
+}",,,stop,13.71
+A020,test97_F012,high,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that Cassie Young was approached by a personal trainer who offered to help her lose weight, but the specific quote about 'no one should be vilified because they're ignorant' is not directly supported by the provided windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Cassie Young was approached by a personal trainer who offered to help her lose weight, but the specific quote about 'no one should be vilified because they're ignorant' is not directly supported by the provided windows.""
+}",,,stop,11.59
+A021,test27_F003,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that John Doe was subjected to a 'fundamentally unfair, arbitrary and capricious disciplinary procedure' and that the university violated his rights under Title IX, but the specific claim that the university created a hostile environment and selectively enforced its provisions remains unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that John Doe was subjected to a 'fundamentally unfair, arbitrary and capricious disciplinary procedure' and that the university violated his rights under Title IX, but the specific claim that the university created a hostile environment and selectively enforced its provisions remains unverified.""
+}",,,stop,18.14
+A022,test59_F004,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Jordan threatened to kill Strauss if he tried anything with him, but the specific context of Strauss trying to pull down Yetts' wrestling shorts is not verified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Jordan threatened to kill Strauss if he tried anything with him, but the specific context of Strauss trying to pull down Yetts' wrestling shorts is not verified.""
+}",,,stop,14.3
+A024,test29_F002,medium,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that Savannah Gold received a 'really strange' message (Window 2) and that her family began receiving strange text messages from her phone shortly after she left for work (Window 3), but the specific details of the message and its content are not verified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Savannah Gold received a 'really strange' message (Window 2) and that her family began receiving strange text messages from her phone shortly after she left for work (Window 3), but the specific details of the message and its content are not verified.""
+}",,,stop,13.5
+A025,test40_F008,medium,llama3.2:3b,attribution_top5_v2,INSUFFICIENT,INSUFFICIENT,YES,"The windows do not establish any substantive component of the claim, as they appear to be unrelated to the family meeting with Attinger and administrators, and only provide weather information for Sunbury, PA.","{
+  ""label"": ""INSUFFICIENT"",
+  ""explanation"": ""The windows do not establish any substantive component of the claim, as they appear to be unrelated to the family meeting with Attinger and administrators, and only provide weather information for Sunbury, PA.""
+}",,,stop,10.21
+A026,test13_F010,medium,llama3.2:3b,attribution_top5_v2,INSUFFICIENT,PARTIALLY_SUPPORTED,NO,"The claim that Susan Rice received the 94 fateful words the night before is supported, but the claim that she sent the CIA an email summarizing her thoughts the next day is not supported by the evidence.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The claim that Susan Rice received the 94 fateful words the night before is supported, but the claim that she sent the CIA an email summarizing her thoughts the next day is not supported by the evidence.""
+}",,,stop,18.7
+A027,test22_F003,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that he has defected and is in South Korea, but the current status of being interrogated is not explicitly confirmed.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that he has defected and is in South Korea, but the current status of being interrogated is not explicitly confirmed.""
+}",,,stop,10.87
+A028,test2_F006,medium,llama3.2:3b,attribution_top5_v2,INSUFFICIENT,PARTIALLY_SUPPORTED,NO,"At least one substantive component of the claim (formation of a new state) is established, but at least one other substantive component (the specific counties involved) remains unverified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""At least one substantive component of the claim (formation of a new state) is established, but at least one other substantive component (the specific counties involved) remains unverified by the combined windows.""
+}",,,stop,15.56
+A029,test66_F005,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that the nuns were acting as nurses and serving breakfast when the gunmen entered, but the specific number of victims and the organization's founding location are unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the nuns were acting as nurses and serving breakfast when the gunmen entered, but the specific number of victims and the organization's founding location are unverified.""
+}",,,stop,17.29
+A030,test47_F004,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence partially supports the claim by establishing the historical account and the date of the tomb (A.D. 325), but the specific claim about the site being the tomb of Jesus Christ is not fully verified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence partially supports the claim by establishing the historical account and the date of the tomb (A.D. 325), but the specific claim about the site being the tomb of Jesus Christ is not fully verified.""
+}",,,stop,16.09
+A031,test19_F008,medium,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"At least one substantive component of the claim (Perry's speech) is established, but the specific claim that Perry is 'reeling' is not directly supported. The missing component is the reason for Perry's reeling, which is not explicitly stated in the windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""At least one substantive component of the claim (Perry's speech) is established, but the specific claim that Perry is 'reeling' is not directly supported. The missing component is the reason for Perry's reeling, which is not explicitly stated in the windows.""
+}",,,stop,14.41
+A032,test66_F012,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The claim that Yemeni officials are blaming ISIS for the attack is partially supported, as the Vatican secretary of state mentions 'so-called Islamic State' in a statement. However, the identity of the gunmen remains unclear, and the attack is attributed to gunmen without specifying their affiliation.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The claim that Yemeni officials are blaming ISIS for the attack is partially supported, as the Vatican secretary of state mentions 'so-called Islamic State' in a statement. However, the identity of the gunmen remains unclear, and the attack is attributed to gunmen without specifying their affiliation.""
+}",,,stop,17.45
+A033,test37_F008,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that an arborist will investigate on Tuesday, but the investigation on Monday is not explicitly mentioned or confirmed, leaving the investigation on Monday unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that an arborist will investigate on Tuesday, but the investigation on Monday is not explicitly mentioned or confirmed, leaving the investigation on Monday unverified.""
+}",,,stop,12.67
+A034,test84_F007,medium,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that Japan has raised its threat level to 5, but the danger extends beyond the local, with concerns about spent nuclear fuel pools and potential radiation risks to the US, indicating at least one substantive component of the claim is established, but the specific claim about the danger extending beyond the local remains unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Japan has raised its threat level to 5, but the danger extends beyond the local, with concerns about spent nuclear fuel pools and potential radiation risks to the US, indicating at least one substantive component of the claim is established, but the specific claim about the danger extending beyond the local remains unverified.""}",,,stop,16.72
+A035,test14_F009,medium,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that rocks are being thrown into the air (Window 1), but the quantity (1,300 feet) and the specific location (Hunga Ha'apai) are unverified. Additionally, the presence of steam in the atmosphere (Window 2) and the formation of a new island (Window 3) support the claim, but the details of the ash and rock being sent into the atmosphere are not fully established.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that rocks are being thrown into the air (Window 1), but the quantity (1,300 feet) and the specific location (Hunga Ha'apai) are unverified. Additionally, the presence of steam in the atmosphere (Window 2) and the formation of a new island (Window 3) support the claim, but the details of the ash and rock being sent into the atmosphere are not fully established.""}",,,stop,17.57
+A036,test76_F003,medium,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The performance of Ryom Tae-Ok and Kim Ju-Sik at the Nebelhorn Trophy in Germany is established as a career-best performance in an international competition, but the fact that it was a career-best performance is not fully supported, as the windows do not explicitly state this.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The performance of Ryom Tae-Ok and Kim Ju-Sik at the Nebelhorn Trophy in Germany is established as a career-best performance in an international competition, but the fact that it was a career-best performance is not fully supported, as the windows do not explicitly state this.""
+}",,,stop,19.53
+A037,test86_F004,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes the allure of a sober January appealing to the classic all-or-nothing mentality of the addict, but the guilt-based origin of the idea is unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes the allure of a sober January appealing to the classic all-or-nothing mentality of the addict, but the guilt-based origin of the idea is unverified.""
+}",,,stop,14.97
+A038,test98_F007,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes the '55' as a nod to the year the first Disney park opened, but the specific year is not verified. The missing component is the year the first Disney park opened.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes the '55' as a nod to the year the first Disney park opened, but the specific year is not verified. The missing component is the year the first Disney park opened.""
+}",,,stop,12.86
+A039,test14_F005,medium,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes the size of the island (a square mile) and its location (40 miles northwest of the capital), but the dimensions (1.8 km x 1.5 km) and depth (100-200 meters) are not verified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes the size of the island (a square mile) and its location (40 miles northwest of the capital), but the dimensions (1.8 km x 1.5 km) and depth (100-200 meters) are not verified by the combined windows.""
+}",,,stop,15.95
+A040,test6_F002,medium,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Palestinian rockets were fired at Israel, but the retaliation claim is not verified, as the windows do not mention a response to the rockets.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Palestinian rockets were fired at Israel, but the retaliation claim is not verified, as the windows do not mention a response to the rockets.""
+}",,,stop,13.88
+A041,test3_F006,low,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that Microsoft is trying to build a devices and services strategy, but the specific claim that it is trying to ape the Apple model is not fully supported, as the focus is on building a strategy rather than directly emulating Apple's integrated hardware and software model.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Microsoft is trying to build a devices and services strategy, but the specific claim that it is trying to ape the Apple model is not fully supported, as the focus is on building a strategy rather than directly emulating Apple's integrated hardware and software model.""
+}",,,stop,14.75
+A042,test56_F004,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that the chain will not allow texting in the 'foreseeable future' (Window 1), and that CEO Adam Aron acknowledges the social media uproar and states that texting will not happen (Windows 2 and 5). However, the specific timeframe 'foreseeable future' is not explicitly established by the evidence.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the chain will not allow texting in the 'foreseeable future' (Window 1), and that CEO Adam Aron acknowledges the social media uproar and states that texting will not happen (Windows 2 and 5). However, the specific timeframe 'foreseeable future' is not explicitly established by the evidence.""}",,,stop,15.06
+A043,test19_F007,low,llama3.2:3b,attribution_top5_v2,INSUFFICIENT,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Huntsman, Santorum, and Bachmann are struggling, but the specific claim that the debate is 'totally about relevance and trying to maintain some respectability' is not fully supported, as the windows focus on the candidates' chances of success or failure rather than their debate strategies.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Huntsman, Santorum, and Bachmann are struggling, but the specific claim that the debate is 'totally about relevance and trying to maintain some respectability' is not fully supported, as the windows focus on the candidates' chances of success or failure rather than their debate strategies.""
+}",,,stop,16.18
+A044,test29_F009,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence partially supports the claim that Rodarte sent the text to Gold's parents, as Window 4 establishes that Rodarte led police to remains believed to be Savannah Gold, and Window 5 indicates that the text was not from Gold's phone, but the specific claim that Rodarte sent the text to Gold's parents remains unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence partially supports the claim that Rodarte sent the text to Gold's parents, as Window 4 establishes that Rodarte led police to remains believed to be Savannah Gold, and Window 5 indicates that the text was not from Gold's phone, but the specific claim that Rodarte sent the text to Gold's parents remains unverified.""}",,,stop,13.38
+A045,test85_F004,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Eugene Bowen was given a 20-month prison sentence and $18,500 restitution, but the specific amount of restitution for Andre Sutton and the exact sentence for Anthony Bell remain unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Eugene Bowen was given a 20-month prison sentence and $18,500 restitution, but the specific amount of restitution for Andre Sutton and the exact sentence for Anthony Bell remain unverified.""
+}",,,stop,16.65
+A046,test81_F002,low,llama3.2:3b,attribution_top5_v2,INSUFFICIENT,PARTIALLY_SUPPORTED,NO,"The evidence supports Sen. Elizabeth Warren as a possible future vice president, but not the other individuals listed, as the relevant information about them is absent from the retrieved windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence supports Sen. Elizabeth Warren as a possible future vice president, but not the other individuals listed, as the relevant information about them is absent from the retrieved windows.""
+}",,,stop,14.36
+A047,test24_F005,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Deena Murphy and Timothy Sullivan deposited $140,000, but the specific use of the funds to pay Aaron Fitz Construction and its subcontractors remains unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Deena Murphy and Timothy Sullivan deposited $140,000, but the specific use of the funds to pay Aaron Fitz Construction and its subcontractors remains unverified.""
+}",,,stop,18.35
+A048,test88_F007,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that it took six years to replicate the success with human embryos, but the specific claim about using eggs from donors is not verified, and the claim about monkey embryos is not directly related to the atomic fact.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that it took six years to replicate the success with human embryos, but the specific claim about using eggs from donors is not verified, and the claim about monkey embryos is not directly related to the atomic fact.""
+}",,,stop,14.07
+A049,test70_F005,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that Gurley was struck by a bullet (Window 1 and Window 2) and that the incident occurred on November 20, 2014 (Window 3), but the location of the landing where Gurley was standing is not specified, and the nature of the incident is disputed (Window 4 and Window 5)","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that Gurley was struck by a bullet (Window 1 and Window 2) and that the incident occurred on November 20, 2014 (Window 3), but the location of the landing where Gurley was standing is not specified, and the nature of the incident is disputed (Window 4 and Window 5)""}",,POSSIBLY_TRUNCATED_EXPLANATION,stop,16.62
+A051,test0_F001,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that voters in 11 states will pick their governors tonight, but the specific number of states and the outcome for each state are not verified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that voters in 11 states will pick their governors tonight, but the specific number of states and the outcome for each state are not verified.""
+}",,,stop,16.07
+A052,test84_F009,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes the use of water cannons and fire trucks to cool the reactor, but the effectiveness of these methods is unverified, and the severity of the crisis is not fully established.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes the use of water cannons and fire trucks to cool the reactor, but the effectiveness of these methods is unverified, and the severity of the crisis is not fully established.""
+}",,,stop,16.76
+A053,test40_F009,low,llama3.2:3b,attribution_top5_v2,INSUFFICIENT,INSUFFICIENT,YES,"The windows do not establish any substantive component of the claim that Mary didn't mail the letter as it was because they discuss unrelated topics, such as Hillary Clinton's interest in Houston, her conversations with Eleanor Roosevelt and Mahatma Gandhi, and weather conditions in Sunbury, PA.","{
+  ""label"": ""INSUFFICIENT"",
+  ""explanation"": ""The windows do not establish any substantive component of the claim that Mary didn't mail the letter as it was because they discuss unrelated topics, such as Hillary Clinton's interest in Houston, her conversations with Eleanor Roosevelt and Mahatma Gandhi, and weather conditions in Sunbury, PA.""
+}",,,stop,16.41
+A054,test56_F001,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that AMC CEO Adam Aron initially suggested allowing texting in theaters (Window 3), but the combined windows show that he later backtracked on this plan (Windows 1, 2, 5), with no substantive component of the claim about texting being allowed being verified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that AMC CEO Adam Aron initially suggested allowing texting in theaters (Window 3), but the combined windows show that he later backtracked on this plan (Windows 1, 2, 5), with no substantive component of the claim about texting being allowed being verified.""}",,,stop,13.37
+A055,test19_F001,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The combined windows establish that the GOP candidates will focus on economic issues and survival is a key objective, but the specific stakes for the Iowa caucuses are not explicitly mentioned.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The combined windows establish that the GOP candidates will focus on economic issues and survival is a key objective, but the specific stakes for the Iowa caucuses are not explicitly mentioned.""
+}",,,stop,12.81
+A056,test78_F007,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that the 'Made in the USA' label on the Equate products is no longer present, but at least one substantive component of the claim (the products' origin) remains unverified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the 'Made in the USA' label on the Equate products is no longer present, but at least one substantive component of the claim (the products' origin) remains unverified by the combined windows.""
+}",,,stop,14.96
+A057,test96_F003,low,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The evidence establishes that the player suffered a devastating knee injury, but the specific claim that he sat out the rest of the year is not verified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that the player suffered a devastating knee injury, but the specific claim that he sat out the rest of the year is not verified by the combined windows.""
+}",,,stop,13.51
+A058,test13_F006,low,llama3.2:3b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"The claim that the intel was shaky (sourced from intercepted phone calls) is partially supported, while the claim that it could alert al-Qaeda members to the fact that they were being watched is not supported by the evidence.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The claim that the intel was shaky (sourced from intercepted phone calls) is partially supported, while the claim that it could alert al-Qaeda members to the fact that they were being watched is not supported by the evidence.""
+}",,,stop,17.62
+A059,test3_F003,low,llama3.2:3b,attribution_top5_v2,INSUFFICIENT,PARTIALLY_SUPPORTED,NO,"The evidence partially supports the claim that Microsoft's acquisition of Nokia was driven by 'Fear of dying alone', as at least one substantive component (the idea that Microsoft is shifting its focus from desktop to mobile devices) is established, but the specific reason ('Fear of dying alone') remains unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence partially supports the claim that Microsoft's acquisition of Nokia was driven by 'Fear of dying alone', as at least one substantive component (the idea that Microsoft is shifting its focus from desktop to mobile devices) is established, but the specific reason ('Fear of dying alone') remains unverified.""
+}",,,stop,19.1
+A060,test68_F001,low,llama3.2:3b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"The evidence establishes that elephants can distinguish between human languages, but it does not confirm that speaking the wrong language may not be well-received by the elephant, as the study's findings do not directly address the potential reaction of the elephant to a language mismatch.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""The evidence establishes that elephants can distinguish between human languages, but it does not confirm that speaking the wrong language may not be well-received by the elephant, as the study's findings do not directly address the potential reaction of the elephant to a language mismatch.""
+}",,,stop,16.5

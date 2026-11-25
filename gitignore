@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+
+# Temporary and interrupted-run files
+*.tmp
+*.log
+*.bak
+*~
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+
+# IMPORTANT: Do not ignore data/, evaluation/model_evaluation/,
+# or model_evaluation/. The CSV inputs and saved predictions are
+# needed to reproduce the reported evaluation results.

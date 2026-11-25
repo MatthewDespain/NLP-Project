@@ -1,0 +1,44 @@
+{
+  "inputs": {
+    "qwen3:1.7b": "attribution_qwen3_1_7b_57facts_v2.csv",
+    "qwen3:8b": "attribution_qwen3_8b_57facts_v2.csv",
+    "llama3.2:3b": "attribution_llama3_2_3b_57facts_v2.csv",
+    "llama3.1:8b": "attribution_llama3_1_8b_57facts_v2.csv",
+    "gemma3:4b": "attribution_gemma3_4b_57facts_v2.csv",
+    "gemma3:12b": "attribution_gemma3_12b_57facts_v2.csv"
+  },
+  "prompt_version": "attribution_top5_v2",
+  "facts": 57,
+  "models": 6,
+  "predictions": 342,
+  "development_ids": [
+    "A001",
+    "A002",
+    "A003",
+    "A004",
+    "A005",
+    "A006",
+    "A007",
+    "A008",
+    "A009",
+    "A012",
+    "A014",
+    "A025",
+    "A026",
+    "A028"
+  ],
+  "reference_distribution": {
+    "PARTIALLY_SUPPORTED": 14,
+    "SUPPORTED": 36,
+    "INSUFFICIENT": 7
+  },
+  "outputs": [
+    "attribution_all_342_predictions_v2.csv",
+    "attribution_model_summary_v2.csv",
+    "attribution_class_metrics_v2.csv",
+    "attribution_confusion_matrices_v2.csv",
+    "attribution_misclassifications_v2.csv",
+    "attribution_per_fact_model_comparison_v2.csv",
+    "attribution_evaluation_report_v2.md"
+  ]
+}

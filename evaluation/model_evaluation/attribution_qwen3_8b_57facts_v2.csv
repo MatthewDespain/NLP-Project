@@ -1,0 +1,229 @@
+sample_id,fact_id,similarity_stratum,model,prompt_version,reference_label,predicted_label,match,explanation,raw_response,error,quality_flags,done_reason,elapsed_seconds
+A001,test23_F009,high,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Window 1 supports the statement 'I'm going to have a ball' but does not attribute it to a prospector or a Chico newspaper. The other windows do not provide information about a prospector, a Chico newspaper, or the specific quote attributed to the prospector.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 1 supports the statement 'I'm going to have a ball' but does not attribute it to a prospector or a Chico newspaper. The other windows do not provide information about a prospector, a Chico newspaper, or the specific quote attributed to the prospector.""
+}",,,stop,40.12
+A002,test20_F003,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"The atomic fact is fully supported by Window 1, which directly quotes Phil Robertson stating, 'I never, with my eyes, saw the mistreatment of any black person.' Other windows provide additional context or repetition of the claim without contradicting it.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""The atomic fact is fully supported by Window 1, which directly quotes Phil Robertson stating, 'I never, with my eyes, saw the mistreatment of any black person.' Other windows provide additional context or repetition of the claim without contradicting it.""
+}",,,stop,29.18
+A003,test28_F005,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Window 1 directly supports the atomic fact by including the exact quoted statement: 'I think those comments were really hard to stomach, really, and I guess trying to appeal to people's worst instincts.'","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 directly supports the atomic fact by including the exact quoted statement: 'I think those comments were really hard to stomach, really, and I guess trying to appeal to people's worst instincts.'""
+}",,POSSIBLY_TRUNCATED_EXPLANATION,stop,22.65
+A004,test77_F001,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 5 establish that Adrianne Haslet-Davis will run the Boston Marathon this year. Window 1 mentions she will 'take on a great one' this April, and Window 5 explicitly states she announced her training for this year's 120th Boston Marathon.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 5 establish that Adrianne Haslet-Davis will run the Boston Marathon this year. Window 1 mentions she will 'take on a great one' this April, and Window 5 explicitly states she announced her training for this year's 120th Boston Marathon.""
+}",,,stop,30.28
+A005,test16_F011,high,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Window 1 supports the quoted statement by Katie Wyble, but lacks the explicit attribution of the statement to her. Windows 2 and 5 mention Katie Wyble's passion for sign language but do not include the exact quoted statement. The specific statement in the atomic fact is not fully verified by the combined windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 1 supports the quoted statement by Katie Wyble, but lacks the explicit attribution of the statement to her. Windows 2 and 5 mention Katie Wyble's passion for sign language but do not include the exact quoted statement. The specific statement in the atomic fact is not fully verified by the combined windows.""
+}",,,stop,31.71
+A006,test49_F004,high,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Windows 1 and 2 support the claim that the Camp Fire burned more than 153,000 acres, killed at least 85 people, and destroyed nearly 19,000 buildings. However, Window 1 mentions 13,000 homes destroyed, which is inconsistent with the 19,000 buildings figure in Window 2, and the exact date of the fire is not explicitly confirmed across all windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1 and 2 support the claim that the Camp Fire burned more than 153,000 acres, killed at least 85 people, and destroyed nearly 19,000 buildings. However, Window 1 mentions 13,000 homes destroyed, which is inconsistent with the 19,000 buildings figure in Window 2, and the exact date of the fire is not explicitly confirmed across all windows.""
+}",,,stop,44.99
+A007,test47_F011,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,Window 1 directly supports the atomic fact by stating that it is archaeologically impossible to say that the tomb is the burial site of an individual Jew known as Jesus of Nazareth. The other windows provide additional context but do not contradict or add relevant information to this specific claim.,"{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 directly supports the atomic fact by stating that it is archaeologically impossible to say that the tomb is the burial site of an individual Jew known as Jesus of Nazareth. The other windows provide additional context but do not contradict or add relevant information to this specific claim.""
+}",,,stop,40.71
+A008,test72_F004,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,Window 1 directly supports the atomic fact by quoting the exact statement about handing over babies to Dr Aamir. Other windows provide context about the process and environment but do not contradict or undermine the core statement.,"{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 directly supports the atomic fact by quoting the exact statement about handing over babies to Dr Aamir. Other windows provide context about the process and environment but do not contradict or undermine the core statement.""
+}",,,stop,28.37
+A009,test66_F002,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"The atomic fact is fully supported by multiple windows, including Window 1, Window 2, Window 3, Window 4, and Window 5, which all attribute the condemnation of the attack as an 'act of senseless and diabolical violence' to the Vatican or Pope Francis.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""The atomic fact is fully supported by multiple windows, including Window 1, Window 2, Window 3, Window 4, and Window 5, which all attribute the condemnation of the attack as an 'act of senseless and diabolical violence' to the Vatican or Pope Francis.""
+}",,,stop,38.97
+A010,test28_F008,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Window 1 and Window 2 directly quote the atomic fact verbatim, establishing all substantive components of the claim. Other windows provide context but do not contradict or add missing information.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 and Window 2 directly quote the atomic fact verbatim, establishing all substantive components of the claim. Other windows provide context but do not contradict or add missing information.""
+}",,,stop,31.76
+A011,test0_F009,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 3 and 4 explicitly state that in Montana, New Hampshire, and Washington, incumbent Democratic governors aren't running again, directly supporting the atomic fact.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 3 and 4 explicitly state that in Montana, New Hampshire, and Washington, incumbent Democratic governors aren't running again, directly supporting the atomic fact.""
+}",,,stop,32.83
+A012,test56_F007,high,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Window 1 supports the claim that AMC would ensure guests fully enjoy the movie-going experience, but it does not mention 'VERY FEW screens' or a specific day like Thursday. Window 4 mentions Aron discussing texting in theaters but does not directly support the claim about a test run on 'VERY FEW screens' or the specific day.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 1 supports the claim that AMC would ensure guests fully enjoy the movie-going experience, but it does not mention 'VERY FEW screens' or a specific day like Thursday. Window 4 mentions Aron discussing texting in theaters but does not directly support the claim about a test run on 'VERY FEW screens' or the specific day.""
+}",,,stop,38.58
+A013,test97_F017,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"The atomic fact is fully supported by Window 1, which directly quotes Cassie Young stating, 'Life is too short to be spent worrying about a belly roll.'","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""The atomic fact is fully supported by Window 1, which directly quotes Cassie Young stating, 'Life is too short to be spent worrying about a belly roll.'""
+}",,POSSIBLY_TRUNCATED_EXPLANATION,stop,23.64
+A014,test60_F001,high,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,SUPPORTED,NO,"Windows 1, 3, and 5 collectively support the atomic fact by confirming the woman was locked in the trunk of a moving car, the role of the 911 dispatcher in saving her, and the use of a flip phone. The claim is fully established by the combined evidence.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1, 3, and 5 collectively support the atomic fact by confirming the woman was locked in the trunk of a moving car, the role of the 911 dispatcher in saving her, and the use of a flip phone. The claim is fully established by the combined evidence.""
+}",,,stop,37.74
+A015,test39_F001,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 2 directly support the atomic fact by confirming that the IRS official (Lois Lerner) has been placed on administrative leave, as reported by the National Review.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 2 directly support the atomic fact by confirming that the IRS official (Lois Lerner) has been placed on administrative leave, as reported by the National Review.""
+}",,,stop,33.14
+A016,test36_F004,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Window 1 directly supports the atomic fact by stating, 'The emphasis has been on doing larger dollar fundraising events, particularly asking for $2,500,' attributed to Corrado. No other windows contradict or add relevant information that would affect this claim.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 directly supports the atomic fact by stating, 'The emphasis has been on doing larger dollar fundraising events, particularly asking for $2,500,' attributed to Corrado. No other windows contradict or add relevant information that would affect this claim.""
+}",,,stop,34.36
+A018,test77_F006,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Window 2 directly supports the atomic fact by stating, 'I'm going to cry the whole time,' which matches the prediction made by Adrianne Haslet-Davis. The other windows provide context about her training, race plans, and personal history, but the full claim is established by Window 2.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 2 directly supports the atomic fact by stating, 'I'm going to cry the whole time,' which matches the prediction made by Adrianne Haslet-Davis. The other windows provide context about her training, race plans, and personal history, but the full claim is established by Window 2.""
+}",,,stop,32.82
+A019,test68_F005,high,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 3 establish that the recordings included different languages and the spoken phrase was the same. The phrase 'Look, look over there—a group of elephants is coming' is explicitly stated in Window 1 and closely matches the phrase in Window 3, confirming the atomic fact.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 3 establish that the recordings included different languages and the spoken phrase was the same. The phrase 'Look, look over there—a group of elephants is coming' is explicitly stated in Window 1 and closely matches the phrase in Window 3, confirming the atomic fact.""
+}",,,stop,33.18
+A020,test97_F012,high,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Window 1 supports the quote 'no one should be vilified because they're ignorant,' but it does not establish that the speaker is the unnamed personal trainer mentioned in the atomic fact. The other windows provide context about Cassie Young and a personal trainer but do not explicitly link the quote to the personal trainer in question.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 1 supports the quote 'no one should be vilified because they're ignorant,' but it does not establish that the speaker is the unnamed personal trainer mentioned in the atomic fact. The other windows provide context about Cassie Young and a personal trainer but do not explicitly link the quote to the personal trainer in question.""
+}",,,stop,29.53
+A021,test27_F003,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 4 directly support the atomic fact by establishing that John Doe claims a 'fundamentally unfair, arbitrary, and capricious disciplinary procedure' and that the university violated his rights under Title IX. The other windows provide additional context but do not contradict or undermine this support.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 4 directly support the atomic fact by establishing that John Doe claims a 'fundamentally unfair, arbitrary, and capricious disciplinary procedure' and that the university violated his rights under Title IX. The other windows provide additional context but do not contradict or undermine this support.""
+}",,,stop,44.07
+A022,test59_F004,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1, 2, and 3 support the atomic fact by establishing that Dailey backs up Dunyasha Yetts' account and that Jordan's reply to Yetts was: 'If he tried that with me, I would kill him.'","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1, 2, and 3 support the atomic fact by establishing that Dailey backs up Dunyasha Yetts' account and that Jordan's reply to Yetts was: 'If he tried that with me, I would kill him.'""
+}",,POSSIBLY_TRUNCATED_EXPLANATION,stop,37.16
+A024,test29_F002,medium,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Window 3 supports the claim that Savannah Gold's family received strange messages after she left for work, but the claim about the parents' suspicions being 'immediately aroused by the 'really strange' message' is only partially supported by Window 2, which contains the phrase 'It looked really strange.' The specific connection between the message and the parents' suspicions is not explicitly established.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 3 supports the claim that Savannah Gold's family received strange messages after she left for work, but the claim about the parents' suspicions being 'immediately aroused by the 'really strange' message' is only partially supported by Window 2, which contains the phrase 'It looked really strange.' The specific connection between the message and the parents' suspicions is not explicitly established.""
+}",,,stop,36.26
+A025,test40_F008,medium,qwen3:8b,attribution_top5_v2,INSUFFICIENT,INSUFFICIENT,YES,"None of the retrieved windows provide any information about the family meeting with Attinger, administrators, or their acceptance of an apology. The windows only contain weather-related content and are entirely irrelevant to the atomic fact.","{
+  ""label"": ""INSUFFICIENT"",
+  ""explanation"": ""None of the retrieved windows provide any information about the family meeting with Attinger, administrators, or their acceptance of an apology. The windows only contain weather-related content and are entirely irrelevant to the atomic fact.""
+}",,,stop,25.37
+A026,test13_F010,medium,qwen3:8b,attribution_top5_v2,INSUFFICIENT,PARTIALLY_SUPPORTED,NO,"Windows 1, 2, 3, 4, and 5 establish that Susan Rice used the 94-word summary on Sunday talk shows days after the attack, but none confirm that she received the summary the night before or that the sender sent an email the next day. The claim about the timing and method of delivery is missing from the evidence.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1, 2, 3, 4, and 5 establish that Susan Rice used the 94-word summary on Sunday talk shows days after the attack, but none confirm that she received the summary the night before or that the sender sent an email the next day. The claim about the timing and method of delivery is missing from the evidence.""
+}",,,stop,50.35
+A027,test22_F003,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Window 1 explicitly states that he was still being interrogated, which directly supports the atomic fact. The other windows provide context about the defection but do not contradict or add relevant information about the interrogation status.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 explicitly states that he was still being interrogated, which directly supports the atomic fact. The other windows provide context about the defection but do not contradict or add relevant information about the interrogation status.""
+}",,,stop,28.6
+A028,test2_F006,medium,qwen3:8b,attribution_top5_v2,INSUFFICIENT,PARTIALLY_SUPPORTED,NO,"Windows 1, 2, and 3 support the idea that some counties in Northern California and Southern Oregon want to form a new state called Jefferson. However, the atomic fact specifically mentions Colorado, which is not addressed in any of the windows.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1, 2, and 3 support the idea that some counties in Northern California and Southern Oregon want to form a new state called Jefferson. However, the atomic fact specifically mentions Colorado, which is not addressed in any of the windows.""
+}",,,stop,39.52
+A029,test66_F005,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 4 establish that the nuns, members of an organization founded by Mother Teresa, were acting as nurses in the home and serving breakfast when the gunmen entered. Window 2 confirms the organization was founded by Mother Teresa.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 4 establish that the nuns, members of an organization founded by Mother Teresa, were acting as nurses in the home and serving breakfast when the gunmen entered. Window 2 confirms the organization was founded by Mother Teresa.""
+}",,,stop,42.39
+A030,test47_F004,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 5 establish that National Geographic writer Kristin Romey corroborates historical accounts about the tomb of Jesus, as stated in the atomic fact. Window 5 directly supports the claim that the tests corroborate historical accounts, aligning with the atomic fact.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 5 establish that National Geographic writer Kristin Romey corroborates historical accounts about the tomb of Jesus, as stated in the atomic fact. Window 5 directly supports the claim that the tests corroborate historical accounts, aligning with the atomic fact.""
+}",,,stop,40.74
+A031,test19_F008,medium,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Windows 1 and 2 mention Perry's performance in New Hampshire and his giddy and drunk behavior, supporting part of the claim. However, the specific reference to 'interesting New Hampshire speech' is not explicitly stated in any window, making that component unverified.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1 and 2 mention Perry's performance in New Hampshire and his giddy and drunk behavior, supporting part of the claim. However, the specific reference to 'interesting New Hampshire speech' is not explicitly stated in any window, making that component unverified.""
+}",,,stop,33.36
+A032,test66_F012,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 3 establish that Yemeni officials are blaming so-called Islamic State, supporting the atomic fact. The identity of the gunmen remains unclear as no group has claimed responsibility, which aligns with the first part of the atomic fact.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 3 establish that Yemeni officials are blaming so-called Islamic State, supporting the atomic fact. The identity of the gunmen remains unclear as no group has claimed responsibility, which aligns with the first part of the atomic fact.""
+}",,,stop,39.85
+A033,test37_F008,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Windows 1 and 3 mention that an arborist is expected to investigate, but they do not specify the days (Monday or Tuesday). Window 4 mentions Sunday as the scheduled day for arborists to arrive, which contradicts the specific days in the atomic fact. The other windows do not provide information about the days.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1 and 3 mention that an arborist is expected to investigate, but they do not specify the days (Monday or Tuesday). Window 4 mentions Sunday as the scheduled day for arborists to arrive, which contradicts the specific days in the atomic fact. The other windows do not provide information about the days.""
+}",,,stop,36.73
+A034,test84_F007,medium,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,SUPPORTED,NO,"Window 1 directly supports the atomic fact by stating that Japan has raised the severity rating of the nuclear crisis to level 5 from 4 on the INES scale, indicating a danger extending beyond the local. Other windows provide additional context about the nuclear crisis but do not contradict or add missing components to the fact.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 directly supports the atomic fact by stating that Japan has raised the severity rating of the nuclear crisis to level 5 from 4 on the INES scale, indicating a danger extending beyond the local. Other windows provide additional context about the nuclear crisis but do not contradict or add missing components to the fact.""
+}",,,stop,39.31
+A035,test14_F009,medium,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Windows 1 and 3 confirm that rocks are being thrown and that the volcano is active, but they do not mention the height of 1,300 feet. Windows 2 and 4/5 mention steam being sent into the atmosphere but do not specify the height of the rocks or confirm the 1,300 feet measurement.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1 and 3 confirm that rocks are being thrown and that the volcano is active, but they do not mention the height of 1,300 feet. Windows 2 and 4/5 mention steam being sent into the atmosphere but do not specify the height of the rocks or confirm the 1,300 feet measurement.""
+}",,,stop,38.66
+A036,test76_F003,medium,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Windows 1, 2, and 3 establish that Ryom Tae-Ok and Kim Ju-Sik qualified for the 2018 Winter Olympics through their performance at the Nebelhorn Trophy, but none explicitly state that this was their career-best performance in an international competition. The claim about it being a career-best performance is missing from the evidence.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1, 2, and 3 establish that Ryom Tae-Ok and Kim Ju-Sik qualified for the 2018 Winter Olympics through their performance at the Nebelhorn Trophy, but none explicitly state that this was their career-best performance in an international competition. The claim about it being a career-best performance is missing from the evidence.""
+}",,,stop,49.18
+A037,test86_F004,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Window 1 supports the claim that the ritual of giving up booze appeals to the classic all-or-nothing, getting-away-with-it mentality of the addict, but it does not explicitly attribute this statement to Tom Sykes. The other windows either discuss the concept of sober January without mentioning Tom Sykes or are irrelevant.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 1 supports the claim that the ritual of giving up booze appeals to the classic all-or-nothing, getting-away-with-it mentality of the addict, but it does not explicitly attribute this statement to Tom Sykes. The other windows either discuss the concept of sober January without mentioning Tom Sykes or are irrelevant.""
+}",,,stop,41.24
+A038,test98_F007,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Window 1 explicitly states that the '55' in the price is a nod to the year the park opened, directly supporting the atomic fact. The other windows provide context about Disney parks and dating sites but do not contradict or add to the specific claim.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 explicitly states that the '55' in the price is a nod to the year the park opened, directly supporting the atomic fact. The other windows provide context about Disney parks and dating sites but do not contradict or add to the specific claim.""
+}",,,stop,33.39
+A039,test14_F005,medium,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,SUPPORTED,NO,"Windows 1 and 2 support the atomic fact by confirming the location 40 miles northwest of the capital, the expert's proximity within a mile, and the size of the island as roughly a square mile. Window 2 explicitly states the dimensions of the island as 1.8 km by 1.5 km, which is approximately a square mile.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 2 support the atomic fact by confirming the location 40 miles northwest of the capital, the expert's proximity within a mile, and the size of the island as roughly a square mile. Window 2 explicitly states the dimensions of the island as 1.8 km by 1.5 km, which is approximately a square mile.""
+}",,,stop,41.8
+A040,test6_F002,medium,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Window 2 supports the claim that Israel said the attack was retaliation for Palestinian rockets fired at southern Israel. However, the atomic fact specifies the attack was retaliation for rockets fired 'yesterday,' which is not explicitly mentioned in any window.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 2 supports the claim that Israel said the attack was retaliation for Palestinian rockets fired at southern Israel. However, the atomic fact specifies the attack was retaliation for rockets fired 'yesterday,' which is not explicitly mentioned in any window.""
+}",,,stop,36.76
+A041,test3_F006,low,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Windows 2 and 4 support the idea that Microsoft is attempting to build a mobile strategy similar to Apple's integrated model, but none of the windows explicitly mention MobileOpportunity or directly state that MobileOpportunity observes this attempt. The specific claim about MobileOpportunity's observation is not substantiated.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 2 and 4 support the idea that Microsoft is attempting to build a mobile strategy similar to Apple's integrated model, but none of the windows explicitly mention MobileOpportunity or directly state that MobileOpportunity observes this attempt. The specific claim about MobileOpportunity's observation is not substantiated.""
+}",,,stop,36.42
+A042,test56_F004,low,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Windows 2 and 5 establish that Adam Aron stated NO TEXTING AT AMC and that this concept is not wanted by the audience, supporting part of the atomic fact. However, the specific claim that Aron acknowledges the social media uproar following the texting news is not explicitly supported by any window.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 2 and 5 establish that Adam Aron stated NO TEXTING AT AMC and that this concept is not wanted by the audience, supporting part of the atomic fact. However, the specific claim that Aron acknowledges the social media uproar following the texting news is not explicitly supported by any window.""
+}",,,stop,34.1
+A043,test19_F007,low,qwen3:8b,attribution_top5_v2,INSUFFICIENT,INSUFFICIENT,YES,"None of the windows provide a direct quote or attribution of the statement to an ex-Huntsman campaign manager. The windows mention Huntsman, Santorum, and Bachmann in the context of debates but do not establish the specific claim about the debate being 'totally about relevance and trying to maintain some respectability' attributed to an ex-Huntsman campaign manager.","{
+  ""label"": ""INSUFFICIENT"",
+  ""explanation"": ""None of the windows provide a direct quote or attribution of the statement to an ex-Huntsman campaign manager. The windows mention Huntsman, Santorum, and Bachmann in the context of debates but do not establish the specific claim about the debate being 'totally about relevance and trying to maintain some respectability' attributed to an ex-Huntsman campaign manager.""
+}",,,stop,40.1
+A044,test29_F009,low,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Window 1 supports the claim by stating that 'Authorities believe that Rodarte was the one who sent the texts after Gold's death.' However, the atomic fact mentions sending a text to Gold's parents, which is not explicitly stated in any window.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 1 supports the claim by stating that 'Authorities believe that Rodarte was the one who sent the texts after Gold's death.' However, the atomic fact mentions sending a text to Gold's parents, which is not explicitly stated in any window.""
+}",,,stop,28.67
+A045,test85_F004,low,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 3 explicitly state that Eugene Bowen, 36, received a 20-month prison sentence and was ordered to pay $18,500 restitution, fully supporting the atomic fact.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 3 explicitly state that Eugene Bowen, 36, received a 20-month prison sentence and was ordered to pay $18,500 restitution, fully supporting the atomic fact.""
+}",,,stop,42.9
+A046,test81_F002,low,qwen3:8b,attribution_top5_v2,INSUFFICIENT,INSUFFICIENT,YES,None of the windows mention any possible future vice presidents or their vetting stages. The windows only discuss Hillary Clinton and Bernie Sanders' relationship and do not address the specific list of individuals in the atomic fact.,"{
+  ""label"": ""INSUFFICIENT"",
+  ""explanation"": ""None of the windows mention any possible future vice presidents or their vetting stages. The windows only discuss Hillary Clinton and Bernie Sanders' relationship and do not address the specific list of individuals in the atomic fact.""
+}",,,stop,35.27
+A047,test24_F005,low,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Window 2 directly supports the atomic fact by stating that Murphy and Sullivan were asked to deposit $140,000 into a fund with the production company, who would later use that money to pay Fitz and other subcontractors. This establishes all substantive components of the claim.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 2 directly supports the atomic fact by stating that Murphy and Sullivan were asked to deposit $140,000 into a fund with the production company, who would later use that money to pay Fitz and other subcontractors. This establishes all substantive components of the claim.""
+}",,,stop,47.32
+A048,test88_F007,low,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Window 1 supports the claim that it took six years to replicate the success with monkey embryos, but does not mention the use of donor eggs. The use of donor eggs is only implied in Window 5, which mentions embryos created from donated eggs, but does not explicitly connect this to the six-year replication period.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 1 supports the claim that it took six years to replicate the success with monkey embryos, but does not mention the use of donor eggs. The use of donor eggs is only implied in Window 5, which mentions embryos created from donated eggs, but does not explicitly connect this to the six-year replication period.""
+}",,,stop,38.43
+A049,test70_F005,low,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Window 1 directly supports the atomic fact by stating that the bullet struck Gurley, who was on a landing one floor below. Additional support is provided by Window 2, which confirms the bullet struck Gurley in the chest while he was on a landing below.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Window 1 directly supports the atomic fact by stating that the bullet struck Gurley, who was on a landing one floor below. Additional support is provided by Window 2, which confirms the bullet struck Gurley in the chest while he was on a landing below.""
+}",,,stop,35.83
+A051,test0_F001,low,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1, 2, 3, and 4 all explicitly state that voters in 11 states will pick their governors today, directly supporting the atomic fact. Window 5 provides additional context about the races but does not contradict or undermine the core claim.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1, 2, 3, and 4 all explicitly state that voters in 11 states will pick their governors today, directly supporting the atomic fact. Window 5 provides additional context about the races but does not contradict or undermine the core claim.""
+}",,,stop,42.78
+A052,test84_F009,low,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1, 2, 3, and 4 all mention the use of fire trucks, water cannons, and other cooling methods by authorities, directly supporting the atomic fact. Window 5 adds context about the severity of the situation but does not contradict or add missing components.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1, 2, 3, and 4 all mention the use of fire trucks, water cannons, and other cooling methods by authorities, directly supporting the atomic fact. Window 5 adds context about the severity of the situation but does not contradict or add missing components.""
+}",,,stop,44.74
+A053,test40_F009,low,qwen3:8b,attribution_top5_v2,INSUFFICIENT,INSUFFICIENT,YES,"None of the retrieved windows mention Mary expressing relief about not mailing a letter or reference to a typo. The windows discuss Hillary Clinton's imaginary conversations and other unrelated topics, but do not support the atomic fact.","{
+  ""label"": ""INSUFFICIENT"",
+  ""explanation"": ""None of the retrieved windows mention Mary expressing relief about not mailing a letter or reference to a typo. The windows discuss Hillary Clinton's imaginary conversations and other unrelated topics, but do not support the atomic fact.""
+}",,,stop,36.81
+A054,test56_F001,low,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 3 establish that AMC's CEO suggested allowing texting in theaters and later reversed the decision, supporting the atomic fact. Window 2 and 5 provide additional confirmation of the reversal and the CEO's statement.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 3 establish that AMC's CEO suggested allowing texting in theaters and later reversed the decision, supporting the atomic fact. Window 2 and 5 provide additional confirmation of the reversal and the CEO's statement.""
+}",,,stop,30.88
+A055,test19_F001,low,qwen3:8b,attribution_top5_v2,SUPPORTED,SUPPORTED,YES,"Windows 1 and 5 establish that with less than two months to go before the Iowa caucuses, the stakes are high for tonight's GOP debate, supporting the atomic fact.","{
+  ""label"": ""SUPPORTED"",
+  ""explanation"": ""Windows 1 and 5 establish that with less than two months to go before the Iowa caucuses, the stakes are high for tonight's GOP debate, supporting the atomic fact.""
+}",,,stop,30.33
+A056,test78_F007,low,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Windows 1 and 5 support that Walmart moved manufacturing of the Equate products to the U.S., but they do not explicitly confirm that Walmart stated the 'Made in the USA' label is now gone. The claim about the label being gone is only implied in Window 5, while the statement about Walmart making the claim is not directly supported by any window.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1 and 5 support that Walmart moved manufacturing of the Equate products to the U.S., but they do not explicitly confirm that Walmart stated the 'Made in the USA' label is now gone. The claim about the label being gone is only implied in Window 5, while the statement about Walmart making the claim is not directly supported by any window.""
+}",,,stop,42.37
+A057,test96_F003,low,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,YES,"Window 5 supports the claim that the 23-year-old suffered a devastating knee injury, specifically mentioning a left knee blowout in April. However, the claim that he sat out the rest of the year is not explicitly supported by any window, as no window confirms he did not return to play.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Window 5 supports the claim that the 23-year-old suffered a devastating knee injury, specifically mentioning a left knee blowout in April. However, the claim that he sat out the rest of the year is not explicitly supported by any window, as no window confirms he did not return to play.""
+}",,,stop,42.1
+A058,test13_F006,low,qwen3:8b,attribution_top5_v2,PARTIALLY_SUPPORTED,INSUFFICIENT,NO,"None of the windows mention opposition arguing that the intel was shaky due to intercepted phone calls or that it could alert al-Qaeda members to being watched. The evidence focuses on the intelligence summary and its use by Susan Rice, but does not address the specific arguments of those opposed.","{
+  ""label"": ""INSUFFICIENT"",
+  ""explanation"": ""None of the windows mention opposition arguing that the intel was shaky due to intercepted phone calls or that it could alert al-Qaeda members to being watched. The evidence focuses on the intelligence summary and its use by Susan Rice, but does not address the specific arguments of those opposed.""
+}",,,stop,44.53
+A059,test3_F003,low,qwen3:8b,attribution_top5_v2,INSUFFICIENT,INSUFFICIENT,YES,None of the windows mention John Herrman or his attribution of Microsoft's acquisition to 'Fear of dying alone.' The evidence does not support the specific claim about Herrman's alternative explanation.,"{
+  ""label"": ""INSUFFICIENT"",
+  ""explanation"": ""None of the windows mention John Herrman or his attribution of Microsoft's acquisition to 'Fear of dying alone.' The evidence does not support the specific claim about Herrman's alternative explanation.""
+}",,,stop,40.49
+A060,test68_F001,low,qwen3:8b,attribution_top5_v2,SUPPORTED,PARTIALLY_SUPPORTED,NO,"Windows 1, 2, 4, and 5 establish that elephants can distinguish between human languages, but none directly address the specific claim about speaking the wrong language in front of an African elephant being 'not well-received'. The missing component is the explicit statement or evidence that elephants react negatively to incorrect language use.","{
+  ""label"": ""PARTIALLY_SUPPORTED"",
+  ""explanation"": ""Windows 1, 2, 4, and 5 establish that elephants can distinguish between human languages, but none directly address the specific claim about speaking the wrong language in front of an African elephant being 'not well-received'. The missing component is the explicit statement or evidence that elephants react negatively to incorrect language use.""
+}",,,stop,42.64

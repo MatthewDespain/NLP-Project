@@ -1,0 +1,10 @@
+# Python dependencies for the LAQuer-inspired attribution evaluation extension.
+#
+# The evaluation, pilot inference, and full inference scripts use only
+# Python's standard library. No third-party pip packages are required.
+#
+# Recommended: Python 3.12 (the development environment).
+#
+# For live inference, install Ollama separately and pull the desired model:
+#   ollama pull qwen3:1.7b
+# Ollama is an external application, not a pip dependency.

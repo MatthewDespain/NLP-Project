@@ -1,0 +1,7 @@
+model,n,correct,accuracy,macro_f1_3class,development_correct,development_n,development_accuracy,untouched_correct,untouched_n,untouched_accuracy,pred_supported,pred_partial,pred_insufficient,pred_contradicted,quality_warning_rows,total_seconds,mean_seconds,median_seconds
+qwen3:1.7b,57,35,0.614035,0.320616,6,14,0.428571,29,43,0.674419,47,10,0,0,4,617.09,10.83,11.1
+qwen3:8b,57,42,0.736842,0.719614,10,14,0.714286,32,43,0.744186,30,21,6,0,3,2106.01,36.95,37.16
+llama3.2:3b,57,16,0.280702,0.283414,5,14,0.357143,11,43,0.255814,0,55,2,0,1,842.57,14.78,14.66
+llama3.1:8b,57,40,0.701754,0.569801,10,14,0.714286,30,43,0.697674,42,13,2,0,2,1892.81,33.21,33.81
+gemma3:4b,57,36,0.631579,0.300926,7,14,0.5,29,43,0.674419,54,2,0,1,1,1005.88,17.65,17.23
+gemma3:12b,57,44,0.77193,0.662091,8,14,0.571429,36,43,0.837209,46,7,4,0,1,3328.9,58.4,57.66
